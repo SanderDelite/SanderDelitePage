@@ -1,10 +1,8 @@
 /*!
-
 */
 //
 // Scripts
 // 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
@@ -15,7 +13,7 @@ window.addEventListener('DOMContentLoaded', event => {
             offset: 74,
         });
     };
-
+    
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
